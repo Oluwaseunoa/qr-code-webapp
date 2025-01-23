@@ -24,27 +24,17 @@ Installation
 To run the app locally, follow the steps below:
 
 1. Clone the repository:
-bash
-Copy
-Edit
 git clone https://github.com/your-username/qr-code-generator.git
 cd qr-code-generator
-2. Install dependencies:
-bash
-Copy
-Edit
-npm install
-3. Set up environment variables:
-Create a .env file in the root directory and add any necessary environment variables. For example:
 
-makefile
-Copy
-Edit
-PORT=3000
-4. Run the app:
-bash
-Copy
-Edit
+2. Install dependencies:
+npm install
+
+3. Set up environment variables (optional):
+Create a .env file in the root directory and add any necessary environment variables. For example:
+e.g PORT=3000
+
+5. Run the app:
 npm start
 Your app will be available at http://localhost:3000.
 
@@ -53,13 +43,13 @@ Open the app in your browser.
 Enter a valid URL in the input field.
 Click the Generate QR Code button.
 Your QR code will be displayed, and you can download it.
+
 Security Features
 Input Validation: Ensures that only valid URLs are processed, protecting against malicious input.
 Helmet: Adds security headers to protect your app from common vulnerabilities.
 Rate Limiting: Limits the number of requests per IP to 100 requests per 15 minutes to prevent abuse.
 Compression: Reduces the size of the response, improving the app's performance.
-Error Handling
-If something goes wrong (e.g., invalid URL, server issue), an error message will be shown to the user, and the issue will be logged for further investigation.
+Error Handling: If something goes wrong (e.g., invalid URL, server issue), an error message will be shown to the user, and the issue will be logged for further investigation.
 
 Contributing
 Feel free to fork the repository, create an issue, or submit a pull request if you'd like to contribute improvements or bug fixes!
@@ -70,3 +60,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Notes:
 Be sure to replace your-username with your actual GitHub username in the repository link.
 If you have additional setup steps or want to provide more detailed instructions, feel free to add them.
+
+live link: https://qrcode-gen-xufg.onrender.com/
