@@ -1,0 +1,113 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f3f5; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container for the entire page */
+.container {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Centering content */
+.content {
+    text-align: center;
+}
+
+.form-footer {
+    font-size: 0.8rem; /* Smaller font size */
+    text-align: center; /* Center the text */
+    padding: 5px 0; /* Minimal padding to make it thinner */
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Darker text for contrast */
+    border-top: 1px solid #ccc; /* Optional top border for separation */
+}
+
+form-footer p {
+    margin: 0; /* Remove extra margin around the paragraph */
+}
+
+/* Title styling */
+h1 {
+    font-size: 2.5rem;
+    color: #6f42c1; /* Purple color */
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Label for input field */
+label {
+    font-size: 1.2rem;
+    color: #495057; /* Dark gray */
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Input field styles */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #495057; /* Dark gray text */
+    background-color: #f8f9fa; /* Light background */
+    transition: border-color 0.3s ease;
+}
+
+/* Input field focus effect */
+input[type="text"]:focus {
+    border-color: #6f42c1; /* Purple border on focus */
+    outline: none;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 25px;
+    background-color: #6f42c1; /* Purple button */
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #5a32a3; /* Darker purple on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    input[type="text"] {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
